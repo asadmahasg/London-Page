@@ -5,6 +5,13 @@
 body{
     height: 100vh;
 }
+html{
+    scroll-behavior: unset;
+    overflow: hidden;
+}
+.contentInside{
+    display: flex;
+}
 .background{
     background-image: url("../Images/background.jpg");
     background-size: cover;
@@ -13,8 +20,14 @@ body{
     height: 100%
 }
 .yellowBack{
-    background: yellow;
-    height: 100%;
-    width: 400px;
     position: absolute;
+    height: 100%;
+    right: 0%;
+}
+.curved{
+    opacity: 70%;
+    border-bottom: 700px solid gold;
+	border-left: 150px solid transparent;
+	height: 0;
+	width: 300px;
 }
